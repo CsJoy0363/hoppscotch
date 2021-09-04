@@ -36,7 +36,7 @@
   <p>
     <a href="https://hoppscotch.io">
       <img
-        src="https://raw.githubusercontent.com/hoppscotch/hoppscotch/main/static/images/screenshots/rest.png"
+        src="https://tiny.cc/hoppscotch_screenshot_1"
         alt="Screenshot"
         width="100%"
       />
@@ -259,6 +259,12 @@ _Add-ons are developed and maintained under **[Hoppscotch Organization](https://
 - Unlimited team collections and shared requests
 - Unlimited team members
 - User roles
+
+🚚 **Bulk Edit:** Edit key-value pairs in bulk.
+
+- Entries are separated by newline
+- Keys and values are separated by `:`
+- Prepend `//` to any row you want to add but keep disabled
 
 **For more features, please read our [documentation](https://docs.hoppscotch.io).**
 

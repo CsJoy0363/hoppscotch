@@ -55,7 +55,7 @@ export default {
       },
       {
         itemprop: "image",
-        content: `${process.env.BASE_URL}/banner.jpg`,
+        content: `${process.env.BASE_URL}/banner.png`,
       },
       // Add to homescreen for Chrome on Android. Fallback for PWA (handled by nuxt)
       {
@@ -98,6 +98,7 @@ export default {
   plugins: [
     "~/plugins/v-tippy",
     "~/plugins/v-focus",
+    "~/plugins/v-textarea",
     "~/plugins/vue-apollo",
     "~/plugins/crisp",
     { src: "~/plugins/web-worker", ssr: false },
@@ -154,7 +155,7 @@ export default {
       name: `${options.name} - ${options.shortDescription}`,
       description: options.description,
       ogHost: process.env.BASE_URL,
-      ogImage: `${process.env.BASE_URL}/banner.jpg`,
+      ogImage: `${process.env.BASE_URL}/banner.png`,
       twitterCard: "summary_large_image",
       twitterSite: options.social.twitter,
       twitterCreator: options.social.twitter,
@@ -213,7 +214,7 @@ export default {
     families: {
       Inter: [400, 500, 600, 700, 800],
       "Material+Icons": true,
-      "Roboto+Mono": true,
+      "Roboto+Mono": [400, 500],
     },
   },
 
